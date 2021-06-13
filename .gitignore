@@ -1,0 +1,17 @@
+*~
+*.sublime-project
+*.sublime-workspace
+*.log*
+*.swp
+*.swo
+.iml
+.idea/
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+/lib
+dist
+/.vscode/
