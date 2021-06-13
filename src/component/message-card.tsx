@@ -1,11 +1,19 @@
 import React  from 'react';
+import './index.less';
 
-const MessageCard = () => {
+interface ICard {
+    title: string;
+    content: string;
+}
 
+const MessageCard = (props: ICard) => {
+
+    const { title, content } = props;
     
     return (
-        <div>
-            卡片
+        <div className="card">
+            <div className="title">{title}</div>
+            <div className="content">{content}</div>
         </div>
     )
 } 

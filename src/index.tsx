@@ -6,7 +6,10 @@ import './index.less'
 const App = () => {
     return (
         <div className="container">
-            <MessageCard/>
+            <MessageCard
+                title="卡片一"
+                content="这里是内容"
+            />
         </div>
     )
 }
