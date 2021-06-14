@@ -1,12 +1,12 @@
 {
   "name": "message-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/message-card.js",
   "scripts": {
     "build": "webpack --config ./scripts/webpack.prod.config.js",
     "start": "webpack-dev-server --config ./scripts/webpack.dev.config.js"
   },
-  "repository": "https://github.com/message-card",
+  "repository": "https://github.com/XmanLin/message-card",
   "keywords": [
     "react",
     "component"
