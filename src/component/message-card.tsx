@@ -1,12 +1,12 @@
 import React  from 'react';
 import './index.less';
 
-interface ICard {
+export interface ICard {
     title: string;
-    content: string;
+    content?: string;
 }
 
-const MessageCard = (props: ICard) => {
+const MessageCard: React.FC<ICard> = (props) => {
 
     const { title, content } = props;
     
