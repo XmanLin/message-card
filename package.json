@@ -4,7 +4,7 @@
   "main": "dist/message-card.js",
   "scripts": {
     "build": "webpack --config ./scripts/webpack.prod.config.js",
-    "start": "webpack-dev-server --config ./scripts/webpack.dev.config.js"
+    "start": "webpack serve --config ./scripts/webpack.dev.config.js"
   },
   "repository": "https://github.com/XmanLin/message-card",
   "keywords": [
@@ -39,7 +39,7 @@
     "typescript": "^4.3.2",
     "url-loader": "^4.1.1",
     "webpack": "^5.38.1",
-    "webpack-cli": "^3.3.12",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.8.0"
   },
